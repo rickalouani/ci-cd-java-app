@@ -1,2 +1,3 @@
 Using it to test Jenkins
-pipeline syntax
+github integration using webhooks vs polling.
+
