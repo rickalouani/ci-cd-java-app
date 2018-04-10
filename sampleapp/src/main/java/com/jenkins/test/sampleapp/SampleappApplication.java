@@ -3,10 +3,9 @@ package com.jenkins.test.sampleapp;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+//@Service
 public class SampleappApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(SampleappApplication.class, args);
+     int sum(int a, int b) {
+          return a + b;
 	}
 }
